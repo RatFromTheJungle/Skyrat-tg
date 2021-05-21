@@ -28,7 +28,7 @@ Regenerative extracts:
 	else
 		user.visible_message("<span class='notice'>[user] crushes [src] over [user.p_them()]self, the milky goo quickly regenerating all of [user.p_their()] injuries!</span>",
 			"<span class='notice'>You squeeze [src], and it bursts in your hand, splashing you with milky goo which quickly regenerates your injuries!</span>")
-	core_effect_before(H, user, 15 seconds)
+	core_effect_before(H, user, 15 Seconds)
 	H.revive(full_heal = TRUE, admin_revive = FALSE)
 	core_effect(H, user)
 	playsound(target, 'sound/effects/splat.ogg', 40, TRUE)
