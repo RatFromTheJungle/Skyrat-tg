@@ -22,9 +22,11 @@
 			return
 
 	user.do_attack_animation(M)
-	M.Paralyze(100)
+	//M.Paralyze(100) SKYRAT EDIT - Goodbye hardstun
+	M.Knockdown(20)
 	M.apply_effect(EFFECT_STUTTER, 5)
-
+	M.adjustStaminaLoss(15)
+	M.Jitter(35)
 	M.visible_message(span_danger("[user] prods [M] with [src]!"), \
 					span_userdanger("[user] prods you with [src]!"))
 
