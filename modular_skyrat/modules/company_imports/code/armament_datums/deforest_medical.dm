@@ -119,8 +119,8 @@
 
 /datum/armament_entry/company_import/deforest/medical_chems/atropine
 	item_type = /obj/item/reagent_containers/cup/bottle/atropine
-	lower_cost = PRICE_CHEM-PREMIUM 
-	upper_cost = PRICE_CHEM-PREMIUM * 1.4
+	lower_cost = PRICE_CHEM_PREMIUM 
+	upper_cost = PRICE_CHEM_PREMIUM * 1.4
 
 /datum/armament_entry/company_import/deforest/medical_chems/syriniver
 	item_type = /obj/item/reagent_containers/cup/bottle/syriniver
