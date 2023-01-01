@@ -4,7 +4,7 @@
 
 #define PRICE_CHEM_CHEAP 75
 #define PRICE_CHEM_MEDIUM 120
-#define PRICE_CHEM-PREMIUM 150
+#define PRICE_CHEM_PREMIUM 150
 
 
 /datum/armament_entry/company_import/deforest
