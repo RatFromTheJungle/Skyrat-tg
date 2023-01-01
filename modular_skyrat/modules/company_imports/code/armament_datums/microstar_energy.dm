@@ -39,7 +39,7 @@
 
 /datum/armament_entry/company_import/microstar/basic_energy_weapons/basic_mcr
 	item_type = /obj/item/gun/microfusion/mcr01
-	lower_cost = PRICE_ENERGYGUN_EXPENSIVE 1.2
+	lower_cost = PRICE_ENERGYGUN_EXPENSIVE * 1.2
 	upper_cost = PRICE_ENERGYGUN_EXPENSIVE * 1.8
 
 // More expensive, unique energy weapons
