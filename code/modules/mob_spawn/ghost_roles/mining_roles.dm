@@ -315,10 +315,10 @@
 	ears = /obj/item/radio/headset/syndicate/alt
 	shoes = /obj/item/clothing/shoes/combat
 	r_pocket = /obj/item/gun/ballistic/automatic/pistol
-	r_hand = /obj/item/gun/ballistic/rifle/sniper_rifle
+	r_hand = /obj/item/gun/energy/recharge/ebow/large // SKYRAT EDIT - Replacing their sniper.
 
 	implants = list(/obj/item/implant/weapons_auth)
-	id_trim = /datum/id_trim/syndicom/skyrat/interdyne //SKYRAT EDIT
+	id_trim = /datum/id_trim/syndicom/skyrat/interdyne //SKYRAT EDIT - Custom Radio Channel
 
 // SKYRAT EDIT REMOVAL BEGIN -- mapping
 /*
